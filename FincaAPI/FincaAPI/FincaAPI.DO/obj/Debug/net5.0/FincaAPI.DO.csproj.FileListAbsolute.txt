@@ -1,0 +1,15 @@
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.deps.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.runtimeconfig.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.runtimeconfig.dev.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\ref\FincaAPI.DO.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.pdb
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.AssemblyInfoInputs.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.AssemblyInfo.cs
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.csproj.CoreCompileInputs.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\ref\FincaAPI.DO.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.pdb
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.genruntimeconfig.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.csproj.AssemblyReference.cache

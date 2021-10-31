@@ -1,27 +1,190 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Universidad\\Progra Avanzada Web\\Proyecto\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {}
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {}
   },
   "projects": {
-    "F:\\Universidad\\Progra Avanzada Web\\Proyecto\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\Proyecto\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
+        "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
         "projectName": "FincaAPI.BS",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\Proyecto\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\Proyecto\\FincaAPI\\FincaAPI\\FincaAPI.BS\\obj\\",
+        "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
+        "packagesPath": "C:\\Users\\RAQUE\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\RAQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj"
+              },
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              },
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
+        "projectName": "FincaAPI.DAL",
+        "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
+        "packagesPath": "C:\\Users\\RAQUE\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RAQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              },
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
+        "projectName": "FincaAPI.DO",
+        "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
+        "packagesPath": "C:\\Users\\RAQUE\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RAQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -45,6 +208,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +245,167 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
+        "projectName": "FincaAPI.EF",
+        "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
+        "packagesPath": "C:\\Users\\RAQUE\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RAQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
+        "projectName": "FincaAPI.Repository",
+        "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
+        "packagesPath": "C:\\Users\\RAQUE\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RAQUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+                "projectPath": "C:\\Git\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
