@@ -22,8 +22,8 @@ namespace FincaAPI.EF
         //public virtual DbSet<Animales> Animales { get; set; }
         //public virtual DbSet<Bitacora> Bitacora { get; set; }
         //public virtual DbSet<Colores> Colores { get; set; }
-        //public virtual DbSet<EntradaConceptos> EntradaConceptos { get; set; }
-        //public virtual DbSet<Generos> Generos { get; set; }
+        public virtual DbSet<EntradaConcepto> EntradaConceptos { get; set; }
+        public virtual DbSet<Genero> Generos { get; set; }
         public virtual DbSet<Numeros> Numeros { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         //public virtual DbSet<SalidaConceptos> SalidaConceptos { get; set; }
@@ -122,25 +122,25 @@ namespace FincaAPI.EF
             //        .IsUnicode(false);
             //});
 
-            //modelBuilder.Entity<EntradaConceptos>(entity =>
-            //{
-            //    entity.HasKey(e => e.EntradaConceptoId);
+            modelBuilder.Entity<EntradaConcepto>(entity =>
+            {
+                entity.HasKey(e => e.EntradaConceptoId);
 
-            //    entity.Property(e => e.EntradaConceptoNombre)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
-            //});
+                entity.Property(e => e.EntradaConceptoNombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
 
-            //modelBuilder.Entity<Generos>(entity =>
-            //{
-            //    entity.HasKey(e => e.GeneroId);
+            modelBuilder.Entity<Genero>(entity =>
+            {
+                entity.HasKey(e => e.GeneroId);
 
-            //    entity.Property(e => e.GeneroNombre)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
-            //});
+                entity.Property(e => e.GeneroNombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
 
             modelBuilder.Entity<Numeros>(entity =>
             {

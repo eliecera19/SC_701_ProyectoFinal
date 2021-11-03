@@ -48,11 +48,11 @@ namespace FincaAPI
 
 
 
-            //Conexion RAQUEL
+            //Conexion
             services.AddDbContext<FincaDBContext>(options =>
-                                                               options.UseSqlServer(
-                                                                   Configuration.GetConnectionString("DefaultConnection")));
-            //END Conexion RAQUEL
+                options.UseSqlServer(
+                Configuration.GetConnectionString("DefaultConnection")));
+            //END Conexion
 
         }
 
