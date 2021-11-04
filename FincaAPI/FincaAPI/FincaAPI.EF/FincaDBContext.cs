@@ -22,8 +22,8 @@ namespace FincaAPI.EF
         //public virtual DbSet<Animales> Animales { get; set; }
         //public virtual DbSet<Bitacora> Bitacora { get; set; }
         public virtual DbSet<Colores> Colores { get; set; }
-        public virtual DbSet<EntradaConcepto> EntradaConceptos { get; set; }
-        public virtual DbSet<Genero> Generos { get; set; }
+        public virtual DbSet<EntradaConceptos> EntradaConceptos { get; set; }
+        public virtual DbSet<Generos> Generos { get; set; }
         public virtual DbSet<Numeros> Numeros { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<SalidaConceptos> SalidaConceptos { get; set; }
@@ -122,7 +122,7 @@ namespace FincaAPI.EF
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<EntradaConcepto>(entity =>
+            modelBuilder.Entity<EntradaConceptos>(entity =>
             {
                 entity.HasKey(e => e.EntradaConceptoId);
 
@@ -132,7 +132,7 @@ namespace FincaAPI.EF
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Genero>(entity =>
+            modelBuilder.Entity<Generos>(entity =>
             {
                 entity.HasKey(e => e.GeneroId);
 

@@ -7,46 +7,46 @@ using data = FincaAPI.DO.Objects;
 
 namespace FincaAPI.BS
 {
-    public class EntradaConcepto : ICRUD<data.EntradaConcepto>
+    public class Generos : ICRUD<data.Generos>
     {
-        private dal.EntradaConcepto _dal;
+        private dal.Generos _dal;
 
-        public EntradaConcepto(FincaDBContext dbContext)
+        public Generos(FincaDBContext dbContext)
         {
-            _dal = new dal.EntradaConcepto(dbContext);
+            _dal = new dal.Generos(dbContext);
         }
 
-        public void Delete(data.EntradaConcepto t)
+        public void Delete(data.Generos t)
         {
             _dal.Delete(t);
         }
 
-        public IEnumerable<data.EntradaConcepto> GetAll()
+        public IEnumerable<data.Generos> GetAll()
         {
             return _dal.GetAll();
         }
 
-        public Task<IEnumerable<data.EntradaConcepto>> GetAllAsync()
+        public Task<IEnumerable<data.Generos>> GetAllAsync()
         {
             return _dal.GetAllAsync();
         }
 
-        public data.EntradaConcepto GetOneById(int id)
+        public data.Generos GetOneById(int id)
         {
             return _dal.GetOneById(id);
         }
 
-        public Task<data.EntradaConcepto> GetOneByIdAsync(int id)
+        public Task<data.Generos> GetOneByIdAsync(int id)
         {
             return _dal.GetOneByIdAsync(id);
         }
 
-        public void Insert(data.EntradaConcepto t)
+        public void Insert(data.Generos t)
         {
             _dal.Insert(t);
         }
 
-        public void Update(data.EntradaConcepto t)
+        public void Update(data.Generos t)
         {
             _dal.Update(t);
         }

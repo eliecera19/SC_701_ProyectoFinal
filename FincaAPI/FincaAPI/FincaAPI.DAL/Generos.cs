@@ -10,48 +10,48 @@ using data = FincaAPI.DO.Objects;
 
 namespace FincaAPI.DAL
 {
-    public class Genero : ICRUD<data.Genero>
+    public class Generos : ICRUD<data.Generos>
     {
-        private Repository<data.Genero> repo;
+        private Repository<data.Generos> repo;
 
-        public Genero(FincaDBContext dbContext)
+        public Generos(FincaDBContext dbContext)
         {
-            repo = new Repository<data.Genero>(dbContext);
+            repo = new Repository<data.Generos>(dbContext);
         }
 
-        public void Delete(data.Genero t)
+        public void Delete(data.Generos t)
         {
             repo.Delete(t);
             repo.Commit();
         }
 
-        public IEnumerable<data.Genero> GetAll()
+        public IEnumerable<data.Generos> GetAll()
         {
             return repo.GetAll();
         }
 
-        public Task<IEnumerable<data.Genero>> GetAllAsync()
+        public Task<IEnumerable<data.Generos>> GetAllAsync()
         {
             return null;
         }
 
-        public data.Genero GetOneById(int id)
+        public data.Generos GetOneById(int id)
         {
             return repo.GetOnebyID(id);
         }
 
-        public Task<data.Genero> GetOneByIdAsync(int id)
+        public Task<data.Generos> GetOneByIdAsync(int id)
         {
             return null;
         }
 
-        public void Insert(data.Genero t)
+        public void Insert(data.Generos t)
         {
             repo.Insert(t);
             repo.Commit();
         }
 
-        public void Update(data.Genero t)
+        public void Update(data.Generos t)
         {
             repo.Update(t);
             repo.Commit();

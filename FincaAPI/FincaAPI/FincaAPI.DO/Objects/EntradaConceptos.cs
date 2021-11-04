@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace FincaAPI.Entidades
+namespace FincaAPI.DO.Objects
 {
-    public class EntradaConcepto
+    public class EntradaConceptos
     {
+        public EntradaConceptos()
+        {
+            //Animales = new HashSet<Animal>();
+        }
+
         public int EntradaConceptoId { get; set; }
         public string EntradaConceptoNombre { get; set; }
 

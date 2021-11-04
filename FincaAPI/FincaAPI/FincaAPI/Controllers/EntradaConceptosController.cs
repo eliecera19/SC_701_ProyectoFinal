@@ -25,25 +25,25 @@ namespace FincaAPI.Controllers
 
         // GET: api/EntradaConcepto
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<models.EntradaConcepto>>> GetEntradaConcepto()
+        public async Task<ActionResult<IEnumerable<models.EntradaConceptos>>> GetEntradaConcepto()
         {
-            var res = new FincaAPI.BS.EntradaConcepto(dbcontext).GetAll();
-            var mapaux = mapper.Map<IEnumerable<data.EntradaConcepto>, IEnumerable<models.EntradaConcepto>>(res).ToList();
+            var res = new FincaAPI.BS.EntradaConceptos(dbcontext).GetAll();
+            var mapaux = mapper.Map<IEnumerable<data.EntradaConceptos>, IEnumerable<models.EntradaConceptos>>(res).ToList();
             return mapaux;
         }
 
         // GET: api/EntradaConcepto/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<models.EntradaConcepto>> GetEntradaConcepto(int id)
+        public async Task<ActionResult<models.EntradaConceptos>> GetEntradaConcepto(int id)
         {
-            var EntradaConcepto = new FincaAPI.BS.EntradaConcepto(dbcontext).GetOneById(id);
+            var EntradaConcepto = new FincaAPI.BS.EntradaConceptos(dbcontext).GetOneById(id);
 
             if (EntradaConcepto == null)
             {
                 return NotFound();
             }
 
-            var mapaux = mapper.Map<data.EntradaConcepto, models.EntradaConcepto>(EntradaConcepto);
+            var mapaux = mapper.Map<data.EntradaConceptos, models.EntradaConceptos>(EntradaConcepto);
 
             return mapaux;
         }
@@ -52,7 +52,7 @@ namespace FincaAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEntradaConcepto(int id, models.EntradaConcepto EntradaConcepto)
+        public async Task<IActionResult> PutEntradaConcepto(int id, models.EntradaConceptos EntradaConcepto)
         {
             if (id != EntradaConcepto.EntradaConceptoId)
             {
@@ -62,8 +62,8 @@ namespace FincaAPI.Controllers
 
             try
             {
-                var mapaux = mapper.Map<models.EntradaConcepto, data.EntradaConcepto>(EntradaConcepto);
-                new FincaAPI.BS.EntradaConcepto(dbcontext).Update(mapaux);
+                var mapaux = mapper.Map<models.EntradaConceptos, data.EntradaConceptos>(EntradaConcepto);
+                new FincaAPI.BS.EntradaConceptos(dbcontext).Update(mapaux);
             }
             catch (Exception ee)
             {
@@ -84,33 +84,33 @@ namespace FincaAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<models.EntradaConcepto>> PostEntradaConcepto(models.EntradaConcepto EntradaConcepto)
+        public async Task<ActionResult<models.EntradaConceptos>> PostEntradaConcepto(models.EntradaConceptos EntradaConcepto)
         {
-            var mapaux = mapper.Map<models.EntradaConcepto, data.EntradaConcepto>(EntradaConcepto);
-            new FincaAPI.BS.EntradaConcepto(dbcontext).Insert(mapaux);
+            var mapaux = mapper.Map<models.EntradaConceptos, data.EntradaConceptos>(EntradaConcepto);
+            new FincaAPI.BS.EntradaConceptos(dbcontext).Insert(mapaux);
 
             return CreatedAtAction("GetEntradaConcepto", new { id = EntradaConcepto.EntradaConceptoId }, EntradaConcepto);
         }
 
         // DELETE: api/EntradaConcepto/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<models.EntradaConcepto>> DeleteEntradaConcepto(int id)
+        public async Task<ActionResult<models.EntradaConceptos>> DeleteEntradaConcepto(int id)
         {
-            var EntradaConcepto = new FincaAPI.BS.EntradaConcepto(dbcontext).GetOneById(id);
+            var EntradaConcepto = new FincaAPI.BS.EntradaConceptos(dbcontext).GetOneById(id);
             if (EntradaConcepto == null)
             {
                 return NotFound();
             }
 
-            new FincaAPI.BS.EntradaConcepto(dbcontext).Delete(EntradaConcepto);
-            var mapaux = mapper.Map<data.EntradaConcepto, models.EntradaConcepto>(EntradaConcepto);
+            new FincaAPI.BS.EntradaConceptos(dbcontext).Delete(EntradaConcepto);
+            var mapaux = mapper.Map<data.EntradaConceptos, models.EntradaConceptos>(EntradaConcepto);
 
             return mapaux;
         }
 
         private bool EntradaConceptoExists(int id)
         {
-            return (new FincaAPI.BS.EntradaConcepto(dbcontext).GetOneById(id) != null);
+            return (new FincaAPI.BS.EntradaConceptos(dbcontext).GetOneById(id) != null);
         }
     }
 }

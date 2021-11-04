@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FincaAPI.Entidades
 {
-    public class Genero
+    public class Generos
     {
         public int GeneroId { get; set; }
         public string GeneroNombre { get; set; }

@@ -13,8 +13,8 @@ namespace FincaAPI.Mapping
         {
             CreateMap<data.Numeros, Entidades.Numeros>().ReverseMap();
             CreateMap<data.Roles, Entidades.Roles>().ReverseMap();
-            CreateMap<data.Genero, Entidades.Genero>().ReverseMap();
-            CreateMap<data.EntradaConcepto, Entidades.EntradaConcepto>().ReverseMap();
+            CreateMap<data.Generos, Entidades.Generos>().ReverseMap();
+            CreateMap<data.EntradaConceptos, Entidades.EntradaConceptos>().ReverseMap();
             CreateMap<data.SalidaConceptos, Entidades.SalidaConceptos>().ReverseMap();
             CreateMap<data.Colores, Entidades.Colores>().ReverseMap();
         }

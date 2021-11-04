@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FincaAPI.DO.Objects
 {
-    public class Genero
+    public class Generos
     {
-        public Genero()
+        public Generos()
         {
             //Animales = new HashSet<Animal>();
         }

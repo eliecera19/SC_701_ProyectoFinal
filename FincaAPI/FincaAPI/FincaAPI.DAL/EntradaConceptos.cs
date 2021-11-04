@@ -10,48 +10,48 @@ using data = FincaAPI.DO.Objects;
 
 namespace FincaAPI.DAL
 {
-    public class EntradaConcepto : ICRUD<data.EntradaConcepto>
+    public class EntradaConceptos : ICRUD<data.EntradaConceptos>
     {
-        private Repository<data.EntradaConcepto> repo;
+        private Repository<data.EntradaConceptos> repo;
 
-        public EntradaConcepto(FincaDBContext dbContext)
+        public EntradaConceptos(FincaDBContext dbContext)
         {
-            repo = new Repository<data.EntradaConcepto>(dbContext);
+            repo = new Repository<data.EntradaConceptos>(dbContext);
         }
 
-        public void Delete(data.EntradaConcepto t)
+        public void Delete(data.EntradaConceptos t)
         {
             repo.Delete(t);
             repo.Commit();
         }
 
-        public IEnumerable<data.EntradaConcepto> GetAll()
+        public IEnumerable<data.EntradaConceptos> GetAll()
         {
             return repo.GetAll();
         }
 
-        public Task<IEnumerable<data.EntradaConcepto>> GetAllAsync()
+        public Task<IEnumerable<data.EntradaConceptos>> GetAllAsync()
         {
             return null;
         }
 
-        public data.EntradaConcepto GetOneById(int id)
+        public data.EntradaConceptos GetOneById(int id)
         {
             return repo.GetOnebyID(id);
         }
 
-        public Task<data.EntradaConcepto> GetOneByIdAsync(int id)
+        public Task<data.EntradaConceptos> GetOneByIdAsync(int id)
         {
             return null;
         }
 
-        public void Insert(data.EntradaConcepto t)
+        public void Insert(data.EntradaConceptos t)
         {
             repo.Insert(t);
             repo.Commit();
         }
 
-        public void Update(data.EntradaConcepto t)
+        public void Update(data.EntradaConceptos t)
         {
             repo.Update(t);
             repo.Commit();

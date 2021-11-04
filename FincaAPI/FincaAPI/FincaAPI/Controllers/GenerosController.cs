@@ -25,25 +25,25 @@ namespace FincaAPI.Controllers
 
         // GET: api/Genero
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<models.Genero>>> GetGenero()
+        public async Task<ActionResult<IEnumerable<models.Generos>>> GetGenero()
         {
-            var res = new FincaAPI.BS.Genero(dbcontext).GetAll();
-            var mapaux = mapper.Map<IEnumerable<data.Genero>, IEnumerable<models.Genero>>(res).ToList();
+            var res = new FincaAPI.BS.Generos(dbcontext).GetAll();
+            var mapaux = mapper.Map<IEnumerable<data.Generos>, IEnumerable<models.Generos>>(res).ToList();
             return mapaux;
         }
 
         // GET: api/Genero/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<models.Genero>> GetGenero(int id)
+        public async Task<ActionResult<models.Generos>> GetGenero(int id)
         {
-            var Genero = new FincaAPI.BS.Genero(dbcontext).GetOneById(id);
+            var Genero = new FincaAPI.BS.Generos(dbcontext).GetOneById(id);
 
             if (Genero == null)
             {
                 return NotFound();
             }
 
-            var mapaux = mapper.Map<data.Genero, models.Genero>(Genero);
+            var mapaux = mapper.Map<data.Generos, models.Generos>(Genero);
 
             return mapaux;
         }
@@ -52,7 +52,7 @@ namespace FincaAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGenero(int id, models.Genero Genero)
+        public async Task<IActionResult> PutGenero(int id, models.Generos Genero)
         {
             if (id != Genero.GeneroId)
             {
@@ -62,8 +62,8 @@ namespace FincaAPI.Controllers
 
             try
             {
-                var mapaux = mapper.Map<models.Genero, data.Genero>(Genero);
-                new FincaAPI.BS.Genero(dbcontext).Update(mapaux);
+                var mapaux = mapper.Map<models.Generos, data.Generos>(Genero);
+                new FincaAPI.BS.Generos(dbcontext).Update(mapaux);
             }
             catch (Exception ee)
             {
@@ -84,33 +84,33 @@ namespace FincaAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<models.Genero>> PostGenero(models.Genero Genero)
+        public async Task<ActionResult<models.Generos>> PostGenero(models.Generos Genero)
         {
-            var mapaux = mapper.Map<models.Genero, data.Genero>(Genero);
-            new FincaAPI.BS.Genero(dbcontext).Insert(mapaux);
+            var mapaux = mapper.Map<models.Generos, data.Generos>(Genero);
+            new FincaAPI.BS.Generos(dbcontext).Insert(mapaux);
 
             return CreatedAtAction("GetGenero", new { id = Genero.GeneroId }, Genero);
         }
 
         // DELETE: api/Genero/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<models.Genero>> DeleteGenero(int id)
+        public async Task<ActionResult<models.Generos>> DeleteGenero(int id)
         {
-            var Genero = new FincaAPI.BS.Genero(dbcontext).GetOneById(id);
+            var Genero = new FincaAPI.BS.Generos(dbcontext).GetOneById(id);
             if (Genero == null)
             {
                 return NotFound();
             }
 
-            new FincaAPI.BS.Genero(dbcontext).Delete(Genero);
-            var mapaux = mapper.Map<data.Genero, models.Genero>(Genero);
+            new FincaAPI.BS.Generos(dbcontext).Delete(Genero);
+            var mapaux = mapper.Map<data.Generos, models.Generos>(Genero);
 
             return mapaux;
         }
 
         private bool GeneroExists(int id)
         {
-            return (new FincaAPI.BS.Genero(dbcontext).GetOneById(id) != null);
+            return (new FincaAPI.BS.Generos(dbcontext).GetOneById(id) != null);
         }
     }
 }
