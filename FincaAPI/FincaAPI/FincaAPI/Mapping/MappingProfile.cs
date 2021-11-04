@@ -15,6 +15,8 @@ namespace FincaAPI.Mapping
             CreateMap<data.Roles, Entidades.Roles>().ReverseMap();
             CreateMap<data.Genero, Entidades.Genero>().ReverseMap();
             CreateMap<data.EntradaConcepto, Entidades.EntradaConcepto>().ReverseMap();
+            CreateMap<data.SalidaConceptos, Entidades.SalidaConceptos>().ReverseMap();
+            CreateMap<data.Colores, Entidades.Colores>().ReverseMap();
         }
     }
 }

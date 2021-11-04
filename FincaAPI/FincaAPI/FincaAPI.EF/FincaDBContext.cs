@@ -21,12 +21,12 @@ namespace FincaAPI.EF
 
         //public virtual DbSet<Animales> Animales { get; set; }
         //public virtual DbSet<Bitacora> Bitacora { get; set; }
-        //public virtual DbSet<Colores> Colores { get; set; }
+        public virtual DbSet<Colores> Colores { get; set; }
         public virtual DbSet<EntradaConcepto> EntradaConceptos { get; set; }
         public virtual DbSet<Genero> Generos { get; set; }
         public virtual DbSet<Numeros> Numeros { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
-        //public virtual DbSet<SalidaConceptos> SalidaConceptos { get; set; }
+        public virtual DbSet<SalidaConceptos> SalidaConceptos { get; set; }
         //public virtual DbSet<Usuarios> Usuarios { get; set; }
 
   
@@ -112,15 +112,15 @@ namespace FincaAPI.EF
             //        .HasConstraintName("FK_Bitacora_Usuarios");
             //});
 
-            //modelBuilder.Entity<Colores>(entity =>
-            //{
-            //    entity.HasKey(e => e.ColorId);
+            modelBuilder.Entity<Colores>(entity =>
+            {
+                entity.HasKey(e => e.ColorId);
 
-            //    entity.Property(e => e.ColorNombre)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
-            //});
+                entity.Property(e => e.ColorNombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
 
             modelBuilder.Entity<EntradaConcepto>(entity =>
             {
@@ -162,15 +162,15 @@ namespace FincaAPI.EF
                     .IsUnicode(false);
             });
 
-            //modelBuilder.Entity<SalidaConceptos>(entity =>
-            //{
-            //    entity.HasKey(e => e.SalidaConceptoId);
+            modelBuilder.Entity<SalidaConceptos>(entity =>
+            {
+                entity.HasKey(e => e.SalidaConceptoId);
 
-            //    entity.Property(e => e.SalidaConceptoNombre)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
-            //});
+                entity.Property(e => e.SalidaConceptoNombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
 
             //modelBuilder.Entity<Usuarios>(entity =>
             //{

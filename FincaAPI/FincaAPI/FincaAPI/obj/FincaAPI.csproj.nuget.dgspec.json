@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj": {}
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj": {}
   },
   "projects": {
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
         "projectName": "FincaAPI.BS",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -34,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj"
               },
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
               },
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
               }
             }
           }
@@ -92,28 +86,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
         "projectName": "FincaAPI.DAL",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\FincaAPI.DAL.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -126,11 +114,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
               },
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj"
               }
             }
           }
@@ -181,28 +169,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
         "projectName": "FincaAPI.DO",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -263,28 +245,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
         "projectName": "FincaAPI.EF",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -297,8 +273,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.DO\\FincaAPI.DO.csproj"
               }
             }
           }
@@ -349,28 +325,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
         "projectName": "FincaAPI.Repository",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\FincaAPI.Repository.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -383,8 +353,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
               }
             }
           }
@@ -435,28 +405,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj": {
+    "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj",
+        "projectUniqueName": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj",
         "projectName": "FincaAPI",
-        "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj",
-        "packagesPath": "C:\\Users\\AvalonG\\.nuget\\packages\\",
-        "outputPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI\\obj\\",
+        "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.csproj",
+        "packagesPath": "C:\\Users\\eliec\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AvalonG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\eliec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -469,11 +433,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.BS\\FincaAPI.BS.csproj"
               },
-              "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
-                "projectPath": "F:\\Universidad\\Progra Avanzada Web\\ProyectoFincaAPI\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
+              "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj": {
+                "projectPath": "C:\\GIT\\SC_701_ProyectoFinal\\FincaAPI\\FincaAPI\\FincaAPI.EF\\FincaAPI.EF.csproj"
               }
             }
           }
@@ -535,12 +499,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.3, 5.0.3]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -549,7 +507,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
