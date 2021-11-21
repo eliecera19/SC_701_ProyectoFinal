@@ -75,7 +75,6 @@ C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\staticwe
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\staticwebassets\FincaAPI.StaticWebAssets.xml
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\scopedcss\bundle\FincaAPI.styles.css
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.RazorTargetAssemblyInfo.cache
-C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.csproj.CopyComplete
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.genruntimeconfig.cache
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\bin\Debug\net5.0\AutoMapper.dll
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -168,3 +167,4 @@ F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\o
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.pdb
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.genruntimeconfig.cache
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.csproj.CopyComplete
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.csproj.CopyComplete

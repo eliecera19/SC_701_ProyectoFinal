@@ -27,7 +27,7 @@ namespace FincaAPI.EF
         public virtual DbSet<Numeros> Numeros { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<SalidaConceptos> SalidaConceptos { get; set; }
-        //public virtual DbSet<Usuarios> Usuarios { get; set; }
+        public virtual DbSet<Usuarios> Usuarios { get; set; }
 
   
 
@@ -172,42 +172,42 @@ namespace FincaAPI.EF
                     .IsUnicode(false);
             });
 
-            //modelBuilder.Entity<Usuarios>(entity =>
-            //{
-            //    entity.HasKey(e => e.UsuarioId);
+            modelBuilder.Entity<Usuarios>(entity =>
+            {
+                entity.HasKey(e => e.UsuarioId);
 
-            //    entity.Property(e => e.UsuarioId)
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.Property(e => e.UsuarioApMaterno)
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioApMaterno)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.Property(e => e.UsuarioApPaterno)
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioApPaterno)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.Property(e => e.UsuarioEmail)
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioEmail)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.Property(e => e.UsuarioNombre)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioNombre)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.Property(e => e.UsuarioPassword)
-            //        .IsRequired()
-            //        .HasMaxLength(50)
-            //        .IsUnicode(false);
+                entity.Property(e => e.UsuarioPassword)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
-            //    entity.HasOne(d => d.Rol)
-            //        .WithMany(p => p.Usuarios)
-            //        .HasForeignKey(d => d.RolId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Usuarios_Roles");
-            //});
+                entity.HasOne(d => d.Rol)
+                    .WithMany(p => p.Usuarios)
+                    .HasForeignKey(d => d.RolId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Usuarios_Roles");
+            });
 
             OnModelCreatingPartial(modelBuilder);
         }

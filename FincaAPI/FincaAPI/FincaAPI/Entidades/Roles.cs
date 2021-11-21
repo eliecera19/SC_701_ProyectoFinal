@@ -9,12 +9,12 @@ namespace FincaAPI.Entidades
     {
         public Roles()
         {
-            //Usuarios = new HashSet<Usuarios>();
+            Usuarios = new HashSet<Usuarios>();
         }
 
         public int RolId { get; set; }
         public string RolNombre { get; set; }
 
-        //public virtual ICollection<Usuarios> Usuarios { get; set; }
+        public virtual ICollection<Usuarios> Usuarios { get; set; }
     }
 }

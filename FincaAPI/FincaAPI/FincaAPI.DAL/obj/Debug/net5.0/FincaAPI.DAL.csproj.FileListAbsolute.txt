@@ -19,7 +19,6 @@ C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\Finc
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\FincaAPI.Repository.pdb
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\FincaAPI.EF.pdb
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DAL\obj\Debug\net5.0\FincaAPI.DAL.csproj.AssemblyReference.cache
-C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.DAL\obj\Debug\net5.0\FincaAPI.DAL.csproj.CopyComplete
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\FincaAPI.DAL.deps.json
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\FincaAPI.DAL.runtimeconfig.json
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.DAL\bin\Debug\net5.0\FincaAPI.DAL.runtimeconfig.dev.json
