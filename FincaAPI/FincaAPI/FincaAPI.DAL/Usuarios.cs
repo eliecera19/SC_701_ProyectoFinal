@@ -34,13 +34,12 @@ namespace FincaAPI.DAL
             return repo.GetAllAsync();
         }
 
-       
+
 
         public data.Usuarios GetOneById(int id)
         {
-            //return repo.GetOnebyID(id);
-
-           return repo.GetOne(s => s.UsuarioId.Equals(id));
+          
+            return repo.GetOne(s => s.UsuarioId.Equals(id.ToString()));
         }
 
         public Task<data.Usuarios> GetOneByIdAsync(int id)
