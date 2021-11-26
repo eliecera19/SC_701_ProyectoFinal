@@ -11,6 +11,7 @@ namespace FincaAPI.Mapping
     {
         public MappingProfile()
         {
+            CreateMap<data.Animales, Entidades.Animales>().ReverseMap();
             CreateMap<data.Numeros, Entidades.Numeros>().ReverseMap();
             CreateMap<data.Roles, Entidades.Roles>().ReverseMap();
             CreateMap<data.Generos, Entidades.Generos>().ReverseMap();

@@ -19,7 +19,7 @@ namespace FincaAPI.EF
         {
         }
 
-        //public virtual DbSet<Animales> Animales { get; set; }
+        public virtual DbSet<Animales> Animales { get; set; }
         //public virtual DbSet<Bitacora> Bitacora { get; set; }
         public virtual DbSet<Colores> Colores { get; set; }
         public virtual DbSet<EntradaConceptos> EntradaConceptos { get; set; }
@@ -33,58 +33,58 @@ namespace FincaAPI.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Animales>(entity =>
-            //{
-            //    entity.HasKey(e => e.AnimalId);
+            modelBuilder.Entity<Animales>(entity =>
+            {
+                entity.HasKey(e => e.AnimalId);
 
-            //    entity.Property(e => e.AnimalConsumoMonto).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalConsumoMonto).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalEntradaFecha).HasColumnType("date");
+                entity.Property(e => e.AnimalEntradaFecha).HasColumnType("date");
 
-            //    entity.Property(e => e.AnimalEntradaPeso).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalEntradaPeso).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalEntradaPrecio).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalEntradaPrecio).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalGananciaMonto).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalGananciaMonto).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalGananciaPorcentaje).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalGananciaPorcentaje).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalSalidaFecha).HasColumnType("datetime");
+                entity.Property(e => e.AnimalSalidaFecha).HasColumnType("datetime");
 
-            //    entity.Property(e => e.AnimalSalidaPeso).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalSalidaPeso).HasColumnType("decimal(18, 2)");
 
-            //    entity.Property(e => e.AnimalSalidaPrecio).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.AnimalSalidaPrecio).HasColumnType("decimal(18, 2)");
 
-            //    entity.HasOne(d => d.AnimalColor)
-            //        .WithMany(p => p.Animales)
-            //        .HasForeignKey(d => d.AnimalColorId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Animales_Colores");
+                entity.HasOne(d => d.Color)
+                    .WithMany(p => p.Animales)
+                    .HasForeignKey(d => d.AnimalColorId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Animales_Colores");
 
-            //    entity.HasOne(d => d.AnimalEntradaConcepto)
-            //        .WithMany(p => p.Animales)
-            //        .HasForeignKey(d => d.AnimalEntradaConceptoId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Animales_EntradaConceptos");
+                entity.HasOne(d => d.EntradaConcepto)
+                    .WithMany(p => p.Animales)
+                    .HasForeignKey(d => d.AnimalEntradaConceptoId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Animales_EntradaConceptos");
 
-            //    entity.HasOne(d => d.AnimalGenero)
-            //        .WithMany(p => p.Animales)
-            //        .HasForeignKey(d => d.AnimalGeneroId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Animales_Generos");
+                entity.HasOne(d => d.Genero)
+                    .WithMany(p => p.Animales)
+                    .HasForeignKey(d => d.AnimalGeneroId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Animales_Generos");
 
-            //    entity.HasOne(d => d.AnimalNumero)
-            //        .WithMany(p => p.Animales)
-            //        .HasForeignKey(d => d.AnimalNumeroId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Animales_Numeros");
+                entity.HasOne(d => d.Numero)
+                    .WithMany(p => p.Animales)
+                    .HasForeignKey(d => d.AnimalNumeroId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Animales_Numeros");
 
-            //    entity.HasOne(d => d.AnimalSalidaConcepto)
-            //        .WithMany(p => p.Animales)
-            //        .HasForeignKey(d => d.AnimalSalidaConceptoId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_Animales_SalidaConceptos");
-            //});
+                entity.HasOne(d => d.SalidaConcepto)
+                    .WithMany(p => p.Animales)
+                    .HasForeignKey(d => d.AnimalSalidaConceptoId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Animales_SalidaConceptos");
+            });
 
             //modelBuilder.Entity<Bitacora>(entity =>
             //{

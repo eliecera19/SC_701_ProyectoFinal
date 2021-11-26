@@ -10,13 +10,13 @@ namespace FincaAPI.DO.Objects
     {
         public Numeros()
         {
-            //Animales = new HashSet<Animales>();
+            Animales = new HashSet<Animales>();
         }
 
         public int NumeroId { get; set; }
         public int Numero { get; set; }
         public string NumeroEstado { get; set; }
 
-        //public virtual ICollection<Animales> Animales { get; set; }
+        public virtual ICollection<Animales> Animales { get; set; }
     }
 }

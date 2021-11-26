@@ -10,12 +10,12 @@ namespace FincaAPI.DO.Objects
     {
         public Generos()
         {
-            //Animales = new HashSet<Animal>();
+            Animales = new HashSet<Animales>();
         }
 
         public int GeneroId { get; set; }
         public string GeneroNombre { get; set; }
 
-        //public virtual ICollection<Animal> Animales { get; set; }
+        public virtual ICollection<Animales> Animales { get; set; }
     }
 }

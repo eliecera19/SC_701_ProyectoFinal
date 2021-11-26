@@ -8,12 +8,12 @@ namespace FincaAPI.DO.Objects
     {
         public Colores()
         {
-            //Animales = new HashSet<Animales>();
+            Animales = new HashSet<Animales>();
         }
 
         public int ColorId { get; set; }
         public string ColorNombre { get; set; }
 
-        //public virtual ICollection<Animales> Animales { get; set; }
+        public virtual ICollection<Animales> Animales { get; set; }
     }
 }

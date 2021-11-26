@@ -10,12 +10,12 @@ namespace FincaAPI.DO.Objects
     {
         public EntradaConceptos()
         {
-            //Animales = new HashSet<Animal>();
+            Animales = new HashSet<Animales>();
         }
 
         public int EntradaConceptoId { get; set; }
         public string EntradaConceptoNombre { get; set; }
 
-        //public virtual ICollection<Animal> Animales { get; set; }
+        public virtual ICollection<Animales> Animales { get; set; }
     }
 }
