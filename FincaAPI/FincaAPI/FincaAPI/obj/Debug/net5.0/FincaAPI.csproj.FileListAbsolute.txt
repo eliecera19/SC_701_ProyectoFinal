@@ -166,5 +166,4 @@ F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\o
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\ref\FincaAPI.dll
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.pdb
 F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.genruntimeconfig.cache
-F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.csproj.CopyComplete
 C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI\obj\Debug\net5.0\FincaAPI.csproj.CopyComplete

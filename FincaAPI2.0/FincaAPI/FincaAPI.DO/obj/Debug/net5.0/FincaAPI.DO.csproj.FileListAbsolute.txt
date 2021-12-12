@@ -1,0 +1,15 @@
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.deps.json
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.runtimeconfig.json
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.runtimeconfig.dev.json
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.dll
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\ref\FincaAPI.DO.dll
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\bin\Debug\net5.0\FincaAPI.DO.pdb
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.csproj.AssemblyReference.cache
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.GeneratedMSBuildEditorConfig.editorconfig
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.AssemblyInfoInputs.cache
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.AssemblyInfo.cs
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.csproj.CoreCompileInputs.cache
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.dll
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\ref\FincaAPI.DO.dll
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.pdb
+F:\Universidad\Progra Avanzada Web\FincaAPI\FincaAPI\FincaAPI.DO\obj\Debug\net5.0\FincaAPI.DO.genruntimeconfig.cache
