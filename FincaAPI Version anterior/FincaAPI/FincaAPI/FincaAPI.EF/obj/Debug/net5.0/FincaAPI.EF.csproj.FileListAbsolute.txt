@@ -1,0 +1,36 @@
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.deps.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.runtimeconfig.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.runtimeconfig.dev.json
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\ref\FincaAPI.EF.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.pdb
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.AssemblyInfoInputs.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.AssemblyInfo.cs
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.CoreCompileInputs.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\ref\FincaAPI.EF.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.pdb
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.genruntimeconfig.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.DO.dll
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.DO.pdb
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.AssemblyReference.cache
+C:\Git\SC_701_ProyectoFinal\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.CopyComplete
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.deps.json
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.runtimeconfig.json
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.runtimeconfig.dev.json
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.dll
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\ref\FincaAPI.EF.dll
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.EF.pdb
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.DO.dll
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\bin\Debug\net5.0\FincaAPI.DO.pdb
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.AssemblyReference.cache
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.GeneratedMSBuildEditorConfig.editorconfig
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.AssemblyInfoInputs.cache
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.AssemblyInfo.cs
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.CoreCompileInputs.cache
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.csproj.CopyComplete
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.dll
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\ref\FincaAPI.EF.dll
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.pdb
+F:\Universidad\Progra Avanzada Web\ProyectoFincaAPI\FincaAPI\FincaAPI\FincaAPI.EF\obj\Debug\net5.0\FincaAPI.EF.genruntimeconfig.cache
