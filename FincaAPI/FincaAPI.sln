@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI", "FincaAPI\FincaAPI.csproj", "{1C76AAF6-5F09-4BAF-BB37-62120D153864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI.BS", "FincaAPI.BS\FincaAPI.BS.csproj", "{F5235A0D-A50C-4155-A407-2830D0CE0DFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI.DAL", "FincaAPI.DAL\FincaAPI.DAL.csproj", "{F71ADC1A-B91E-4209-9A62-6200FCFB0319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI.DO", "FincaAPI.DO\FincaAPI.DO.csproj", "{1F629834-E510-451E-AD41-6EFCCE29DFB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI.EF", "FincaAPI.EF\FincaAPI.EF.csproj", "{83C6980A-00F3-4AA2-81DE-420062A9A0B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FincaAPI.REPO", "FincaAPI.REPO\FincaAPI.REPO.csproj", "{1FA696CC-B59B-4348-80E6-7D0230BF6A10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C76AAF6-5F09-4BAF-BB37-62120D153864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C76AAF6-5F09-4BAF-BB37-62120D153864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C76AAF6-5F09-4BAF-BB37-62120D153864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C76AAF6-5F09-4BAF-BB37-62120D153864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5235A0D-A50C-4155-A407-2830D0CE0DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5235A0D-A50C-4155-A407-2830D0CE0DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5235A0D-A50C-4155-A407-2830D0CE0DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5235A0D-A50C-4155-A407-2830D0CE0DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71ADC1A-B91E-4209-9A62-6200FCFB0319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71ADC1A-B91E-4209-9A62-6200FCFB0319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71ADC1A-B91E-4209-9A62-6200FCFB0319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71ADC1A-B91E-4209-9A62-6200FCFB0319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F629834-E510-451E-AD41-6EFCCE29DFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F629834-E510-451E-AD41-6EFCCE29DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F629834-E510-451E-AD41-6EFCCE29DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F629834-E510-451E-AD41-6EFCCE29DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C6980A-00F3-4AA2-81DE-420062A9A0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C6980A-00F3-4AA2-81DE-420062A9A0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C6980A-00F3-4AA2-81DE-420062A9A0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C6980A-00F3-4AA2-81DE-420062A9A0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA696CC-B59B-4348-80E6-7D0230BF6A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA696CC-B59B-4348-80E6-7D0230BF6A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA696CC-B59B-4348-80E6-7D0230BF6A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA696CC-B59B-4348-80E6-7D0230BF6A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C6AC92F-C8DE-4750-AF86-D9D875AF2F1B}
+	EndGlobalSection
+EndGlobal

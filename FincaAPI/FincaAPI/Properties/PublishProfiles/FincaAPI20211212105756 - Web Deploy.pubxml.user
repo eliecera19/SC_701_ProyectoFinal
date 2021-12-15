@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlD6WYfZLWE2pW/KAfd/uWAAAAAACAAAAAAAQZgAAAAEAACAAAAAwCBh5uqXdfVQqlXk2f9q5gMxkjTNM93enxCwP/L8NtwAAAAAOgAAAAAIAACAAAAAM/JPzg+NIFfk5VIGleEFEO+RawIkfiizIbROjH9x8gYAAAABuimtABuyKhKrSw3Q8c5AUXVYYdp2TqEzQmSAZNjJOQduXTNdWG+Ht2uYfUr2U+N+9dNXfzsYR3BPruB/ZLt29rSLOawzSUHm76W2CSIKIwBAT2hYf6Sqzbcygr8OwwfRxMm1DG/34jrjVrELYBEYfbIdeHxBetpirRp/eeD/yhkAAAADzhesq3kKx7QvBxbxyqfepBsqxn3jPl62o63L9KohEYOyJXUWH1xrhsUUxlLTBtvA7yyf/fCd8+lm64JBdGnDh</EncryptedPassword>
+    <History>True|2021-12-12T17:18:17.3488107Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="FincaAPI.EF.FincaContext">
+      <Value>Data Source=tcp:fincaapidbserver.database.windows.net,1433%3bInitial Catalog=FincaAPI_db%3bUser Id=avalon%40fincaapidbserver%3bPassword=AbecedarioRuso000</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
